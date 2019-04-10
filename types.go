@@ -51,6 +51,7 @@ type Update struct {
 	Op      Operation
 	Id      string
 	Service *Service `json:",omitempty"`
+	Value string
 }
 
 type NamedNode struct {
